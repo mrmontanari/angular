@@ -1,0 +1,24 @@
+{
+  "name": "curso-2---angular",
+  "version": "1.0.0",
+  "description": "This is a test to learn how to use it",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrmontanari/angular.git"
+  },
+  "author": "Matheus Montanari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrmontanari/angular/issues"
+  },
+  "homepage": "https://github.com/mrmontanari/angular#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
