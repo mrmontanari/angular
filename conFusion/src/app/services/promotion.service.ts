@@ -8,7 +8,7 @@ import { PROMOTIONS } from '../shared/promotions';
 export class PromotionService {
 
   constructor() { }
-  
+
   getPromotions(): Promotion[] {
     return PROMOTIONS;
   }
@@ -18,6 +18,6 @@ export class PromotionService {
   }
 
   getFeaturedPromotion(): Promotion {
-    return PROMOTIONS.filter((promotion) => promotion.featured)[0];
+    return PROMOTIONS.filter((promo) => promo.featured)[0];
   }
 }
